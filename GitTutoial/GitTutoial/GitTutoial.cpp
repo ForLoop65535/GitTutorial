@@ -9,7 +9,7 @@ bool Guess(int number)
 		Random r;
 		target = r.Next() % 100 + 1;
 	}
-	if (number == target)return true;
+	if (number == target)return true;
 	return false;
 }
 
